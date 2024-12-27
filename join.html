@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigations section Begin -->
+        <nav class="navbar navbar-expand-lg fixed-top" id="nav">
+            <div class="container-fluid">
+                <div class="Flex">
+                <a class="navbar-brand" href="#"><img class="logo" src="images/Frame 149.png"  alt="logo"></a>
+                <button class="navbar-toggler" id="Togglebtn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                </div>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav" id="nav_ul">
+                        <li class="nav-item" id="nav_li">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item" id="nav_li">
+                            <a class="nav-link" href="about.html">Why Us</a>
+                        </li>
+                        <div class="dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Area Of Care
+                            </a>
+                        
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="aoc.html">Area Of Care</a></li>
+                            <li><a class="dropdown-item" href="live.html">Live In Nanny</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                        <li class="nav-item" id="nav_li">
+                            <a class="nav-link" href="space.html">Our Space</a>
+                        </li>
+                        <div class="dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            More
+                            </a>
+                        
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="more.html">Our Dream</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </ul>
+                    <div class="Navbtn ms-lg-5 ms-md-0 ms-sm-0 me-lg-5 me-md-0 me-sm-0" id="Navbtn">
+                        <a class="btnAnchor" href="contact.html"><button class="btn" id="Navbtn1"><span id="btnTxt">Contact Us</span></button></a>
+                        <a class="btnAnchor" href="#"><button class="btn" id="Navbtn2">Join Now</button></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    <!-- Nav Section End -->
+
+         <!-- Section 6 (Contact Section) -->
+            <section class="sec6" style="margin-top: 100px;" data-aos="fade-up" data-aos-delay="800" data-aos-duration="1000">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 col-sm-12 mb-5" data-aos="fade-up" data-aos-delay="800" data-aos-duration="1200">
+                            <form class="row g-3" id="joinForm">
+                                <div class="col-md-6">
+                                  <label for="inputEmail4" class="form-label">First Name</label>
+                                  <input type="text" class="form-control" id="inputFirstName" placeholder="Enter First Name">
+                                </div>
+                                <div class="col-md-6">
+                                  <label for="inputPassword4" class="form-label">Last Name</label>
+                                  <input type="text" class="form-control" id="inputLastName" placeholder="Enter Last Name">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="inputCity" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="inputEmail" placeholder="Enter Your Email">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="inputPhoneNumber" class="form-label">Phone Number</label>
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <div class="dropdown" id="formDrop">
+                                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <img src="images/Image (1).png" alt="circle">
+                                                </a>
+                                                
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-9">
+                                            
+                                            <input type="number" class="form-control" id="inputPhoneNumber" placeholder="Enter Phone Number">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <label for="inputMessage" class="form-label">Message</label>
+                                    <input type="text" class="form-control" id="inputMessage" placeholder="Enter Your Message">
+                                </div>
+                                <div class="row mt-5">
+                                    <div class="col-9">
+                                        <div class="form-check mt-2">
+                                            <input class="form-check-input" style="border: 2px solid #000;" type="checkbox" id="gridCheck">
+                                            <label class="form-check-label" for="gridCheck">
+                                                I agree with Terms of Use and Privacy Policy
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mt-2">
+                                        <button type="submit" class="btn" id="formBtn">Sign in</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 mt-5">
+                            <img class="icon" src="images/Icon.png" alt="Icon">
+                            <h5 class="specH6" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1200">Join Us</h5>
+                            <h1 class="sH3"  data-aos="fade-down" data-aos-delay="800" data-aos-duration="1200">We’re Excited You Want 
+                                <br> To Join The Family.
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </section>
+          <!-- End Section 6 -->
+
+          <!-- Footer Begins -->
+            <footer class="mt-5">
+                <img src="images/Union (3).png"  class="footerUnion" alt="Union">
+                <div class="footerBox">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-5 col-md-12 col-sm-12 footerLeft" >
+                                <img src="images/Footer Logo.png"  alt="Footer Logo">
+                                
+                                <h5 class="footerH5 mt-5">
+                                    Locations: 
+                                    <span class="footerText">36, Lensbury way Abbey Wood, <br> London, SE29SY.</span>
+                                </h5>
+                                <h5 class="footerH5 mt-5">
+                                    Opening and Closing Hours:
+                                </h5>
+                                <span class="footerText">Monday - Friday: 07:00 AM - 06:00 PM</span> <br>
+                                <span class="footerText">Morning: 07:00 AM - 01:00 PM</span> <br>
+                                <span class="footerText">Afternoon: 01:00 PM - 06:00 PM</span>
+                            </div>
+                            <div class="col-lg-7 col-md-12 col-sm-12 mt-5">
+                                <div class="row">
+                                    <div class="col-md-4 mb-5">
+                                            <h4 class="footerHead1">
+                                                Company
+                                            </h4>
+                                            <li class="footerLi">
+                                                <a class="footerAnchor" href="#">Why Us</a>
+                                            </li>
+                                            <li class="footerLi">
+                                                <a class="footerAnchor" href="#">Area of Care</a>
+                                            </li>
+                                            <li class="footerLi">
+                                                <a class="footerAnchor" href="#">Nanny</a>
+                                            </li>
+                                            <li class="footerLi">
+                                                <a class="footerAnchor" href="#">Our Environment</a>
+                                            </li>
+                                            <li class="footerLi">
+                                                <a class="footerAnchor" href="#">Our Solution</a>
+                                            </li>
+                                    </div>
+                                    <div class="col-md-4 mb-5">
+                                            <h4 class="footerHead1">
+                                                Our Service
+                                            </h4>
+                                            <li class="footerLi">
+                                                <a class="footerAnchor" href="#">Childcare Services</a>
+                                            </li>
+                                            <li class="footerLi">
+                                                <a class="footerAnchor" href="#">Nanny Service On Request</a>
+                                            </li>
+                                            <li class="footerLi">
+                                                <a class="footerAnchor" href="#">Free Tax-Funded Childcare</a>
+                                            </li>
+                                            <li class="footerLi">
+                                                <a class="footerAnchor" href="#">Parent Resources</a>
+                                            </li>
+                                            <li class="footerLi">
+                                                <a class="footerAnchor" href="#">Helpful Articles and Advice</a>
+                                            </li>
+                                    </div>
+                                    <div class="col-md-4">
+                                            <h4 class="footerHead1">
+                                                More
+                                            </h4>
+                                            <li class="footerLi">
+                                                <a class="footerAnchor" href="faq.html">FAQ</a>
+                                            </li>
+                                            <li class="footerLi">
+                                                <a class="footerAnchor" href="#">Contact Us</a>
+                                            </li>
+                                            <li class="footerLi">
+                                                <a class="footerAnchor" href="#">Blog</a>
+                                            </li>
+                                            <li class="footerLi">
+                                                <a class="footerAnchor" href="#">Help Center</a>
+                                            </li>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footerBox2">
+                            <div class="row">
+                                <div class="col-lg-8 col-md-12 col-sm-12">
+                                    <h6 class="copyright">
+                                        @ 2024 Marvellous kids childcare. All rights reserved.
+                                    </h6>
+                                </div>
+                                <div class="col-lg-4 col-md-12 col-sm-12">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <a class="footerAnchor" href="#">Terms</a>
+                                            <a class="footerAnchor ms-2" href="#">Privacy</a>
+                                            <a class="footerAnchor ms-2" href="#">Contact</a>
+    
+                                        </div>
+                                        <div class="col-md-6">
+                                            <a href="#" class="footericons">
+                                                <i class="fa-brands fa-youtube"></i>
+                                            </a>
+                                            <a href="#" class="footericons ms-3">
+                                                <i class="fa-brands fa-facebook"></i>
+                                            </a>
+                                            <a href="#" class="footericons ms-3">
+                                                <i class="fa-brands fa-twitter"></i>
+                                            </a>
+                                            <a href="#" class="footericons ms-3">
+                                                <i class="fa-brands fa-instagram"></i>
+                                            </a>
+                                            <a href="#" class="footericons ms-3">
+                                                <i class="fa-brands fa-linkedin-in"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+           <!-- Footer Ends -->
+
+    
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script 
+    type="text/javascript" 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" 
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous">
+    </script>
+    <script src="https://kit.fontawesome.com/345321dedd.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
